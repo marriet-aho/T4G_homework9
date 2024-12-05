@@ -1,7 +1,7 @@
 // Change the title's style and background
 let title = document.querySelector("h1");
 title.style.color = "white";
-title.style.backgroundColor = "orange"; // orange
+title.style.backgroundColor = "blue"; // blue
 title.style.padding = "20px";
 title.style.textTransform = "mixed case";
 
@@ -17,7 +17,7 @@ questions.forEach((question, index) => {
   else if (index === 4) question.innerHTML = "Yes I did it! I manipulated the DOM and styled my elements 😍😍😍😍😍😍😍😍😍😍😍😍";
 
   // Apply unique styles to each paragraph
-  let colors = ["#d9d9d9", "#ffeb3b", "#4caf50", "#9c27b0", "#000000"];
+  let colors = ["aqua", "#90D5FF", "#00FF00", "#EE82EE", "#000000"];
   question.style.backgroundColor = colors[index];
   question.style.color = index === 4 ? "#fff" : "#000";
   question.style.padding = "15px";
