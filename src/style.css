@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: black;
+    /* font-style: dancing script; */
+  }
+  
+  .content .question {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
